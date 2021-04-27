@@ -10,9 +10,12 @@ class WitchHouse(object):
     def __init__(self, player: Player, witch: Witch):
         self.player = player
         self.witch = witch
+        self.first = First()
+        self.sec = Second()
+        self.third = Third()
 
     def play_game(self):
         Introduction.player_details(self.player, self.witch)
-        First.first_choice(First)
-        Second.second_choice(Second)
-        Third.third_choice(Third)
+        self.first.first_choice()
+        self.sec.second_choice()
+        self.third.third_choice(self.third)

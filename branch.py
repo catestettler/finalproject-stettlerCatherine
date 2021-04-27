@@ -26,6 +26,7 @@ class Branch(object):
         seasoning = input("What do you suggest?")
         print("The witch blinks. '", seasoning, "? Hadn't thought of that.'")
         print("'And how would you suggest doing that?'")
+        input()
         print("You offer to show the witch, but he'll have to untie you.")
         print("He narrows his eyes. 'And how do I know you won't try anything funny?'")
         print("You hadn't thought this far ahead. What do you say?")

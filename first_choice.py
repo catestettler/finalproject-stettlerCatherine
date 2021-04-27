@@ -19,9 +19,8 @@ class First(object):
             print("That's not creepy at all.")
             input()
             print("The woman scowls at you, her face vaguely resembling that of a saggy, rotten pumpkin.")
-            print("'I don't know any .' they say. 'And can't you read the sign?!")
-            print("They jab their finger at a sign hanging next to the door that reads:"
-                  " NO SOLICITORS.")
+            print("'Can't you read the sign?!'")
+            print("You are just now noticing 'NO SOLICITORS' sign next to the door.")
             print("Weird. Where did that come from?")
             input()
             print("'Sorry to bother you, ma'am-'")
